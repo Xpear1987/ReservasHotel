@@ -9,24 +9,25 @@ namespace Exercício_Hotel.Classes
     class Call
     {
         string reserva;
+        ListaReservas lista = new ListaReservas();
         public void CallByName()
         {
             Console.WriteLine("Insira o nome do hotel que deseja fazer uma reserva:");
             reserva = Console.ReadLine();
-            ListaReservas.ListaAdd(reserva);
+            lista.ListaAdd(reserva);
             // return to start
         }
-        public void CallByNumbe()
+        public void CallById()
         {
             Console.WriteLine("Insira o Id do hotel que deseja fazer uma reserva:");
             reserva = Console.ReadLine();
-            ListaReservas.ListaAdd(reserva);
+            lista.ListaAdd(reserva);
             // return to start
         }
         public void CallBooked()
         {
             Console.WriteLine("Aqui estão as suas reservas:");
-            ListaReservas.ListaPrint();
+            lista.ListaPrint();
             // return to start
         }
         public void Finished()

@@ -8,23 +8,23 @@ namespace Exercício_Hotel.Classes
 {
     class Start
     {
-        public string start(int input)
+        public string FStart(int input)
         {
             Call call = new Call();
             switch (input)
             {
-                case input == 1:
+                case 1:
                     call.CallByName();
-                    return start(input);
-                case input == 2:
+                    return FStart(input);
+                case 2:
                     call.CallById();
-                    return start(input);
-                case input == 3:
+                    return FStart(input);
+                case 3:
                     call.CallBooked();
-                    return start(input);
-                case input == 4:
-                    call.Finish();
-                    return call.Finish();
+                    return FStart(input);
+                case 4:
+                    call.Finished();
+                    return null;
                 default:
                     return "Opção não encontrada";
                     // return to start
