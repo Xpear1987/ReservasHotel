@@ -1,0 +1,7 @@
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\bin\Debug\Exercício_Hotel.exe.config
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\bin\Debug\Exercício_Hotel.exe
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\bin\Debug\Exercício_Hotel.pdb
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\obj\Debug\Exercício_Hotel.csproj.AssemblyReference.cache
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\obj\Debug\Exercício_Hotel.csproj.CoreCompileInputs.cache
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\obj\Debug\Exercício_Hotel.exe
+C:\Users\aconceicao\source\repos\Exercício_Hotel\Exercício_Hotel\obj\Debug\Exercício_Hotel.pdb
