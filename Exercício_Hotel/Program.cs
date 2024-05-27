@@ -11,10 +11,8 @@ namespace Exercício_Hotel
     {
         static void Main(string[] args)
         {
-            int input;
-            input = Convert.ToInt32(Console.ReadLine());
             Start start = new Start();
-            start.FStart(input);
+            start.FStart();
 
         }
     }

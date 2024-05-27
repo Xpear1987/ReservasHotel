@@ -8,18 +8,28 @@ namespace Exercício_Hotel.Classes
 {
     class ListaReservas
     {
-        List<string> reservas = new List<string>;
-        
-        public void ListaAdd(string reserva)
+        List<Call> reservas = new List<Call>();
+        Call call = new Call();
+        public void FCall(string reserva)
         {
-            reservas.Add(reserva);
+            //var call = new Call { NomeHotel = reserva, IdHotel = 0 };
+            call.NomeHotel = reserva;
+            call.IdHotel = 0;
+            reservas.Add(call);
+        }
+        public void FCall(int reserva)
+        {
+            //var call = new Call { IdHotel = reserva, NomeHotel = "" };
+            call.NomeHotel = "";
+            call.IdHotel = reserva;
+            reservas.Add(call);
         }
 
         public void ListaPrint()
         {
-            foreach (string i in reservas)
+            foreach (Call i in reservas)
             {
-                Console.WriteLine(i);
+                call.Exibir();
             }
         }
     }
