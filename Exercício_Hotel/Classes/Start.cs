@@ -11,15 +11,14 @@ namespace Exercício_Hotel.Classes
         public string FStart()
         {
             var lista = new ListaReservas();
-            int input = 0;
-            while (input != 4)
+            while (true)
             {
                 Console.WriteLine("Por favor, insira sua opção:");
                 Console.WriteLine("1 - Faça uma reserva pelo nome do hotel.");
                 Console.WriteLine("2 - Faça uma reserva pelo número do hotel.");
                 Console.WriteLine("3 - Visualize suas reservas");
                 Console.WriteLine("4 - Encerre o aplicativo");
-                input = Convert.ToInt32(Console.ReadLine());
+                var input = Convert.ToInt32(Console.ReadLine());
                 switch (input)
                 {
                     case 1:
@@ -35,12 +34,13 @@ namespace Exercício_Hotel.Classes
                     case 3:
                         lista.ListaPrint();
                         break;
+                    case 4:
+                        return "";
                     default:
                         Console.WriteLine("Opção não encontrada");
                         break;
                 }
             }
-            return "";
         }
     }
 }

@@ -11,9 +11,8 @@ namespace Exercício_Hotel
     {
         static void Main(string[] args)
         {
-            Start start = new Start();
+            var start = new Start();
             start.FStart();
-
         }
     }
 }
