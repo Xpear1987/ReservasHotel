@@ -10,12 +10,5 @@ namespace Exercício_Hotel.Classes
     {
         public string NomeHotel { get; set; }
         public int IdHotel { get; set; }
-
-        public void Exibir()
-        {
-            Console.WriteLine("Aqui estão as suas reservas:");
-            Console.WriteLine(NomeHotel + ", " + IdHotel);
-            Console.WriteLine("----------------------------");
-        }
     }
 }
